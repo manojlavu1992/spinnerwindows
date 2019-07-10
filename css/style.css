@@ -259,10 +259,11 @@ div { box-sizing: border-box; }
   color: white;
 }*/
 
-/*.circle:hover {
-  background-color: #008000;
-  border-style: dotted;
-}*/
+.circle:hover {
+  background-color: #999999;
+  transition: background-color 0.3s;
+  /*border-style: dotted;*/
+}
 
 .aligner {
   display: flex;
